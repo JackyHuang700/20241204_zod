@@ -1,0 +1,11 @@
+.input-style {
+  @apply block my-1 rounded-md p-2 text-neutral-200 bg-zinc-800;
+}
+
+.input-style::placeholder{
+  @apply text-neutral-500;
+}
+
+.input-style:focus-visible{
+  outline: unset;
+}
